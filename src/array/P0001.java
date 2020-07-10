@@ -7,7 +7,6 @@ import java.util.HashMap;
 
 class P0001 {
 	public int[] twoSum(int[] numbers, int target) {
-//		Solution 1
 //		int[] result = new int[2];
 //		for (int i = 0; i < numbers.length - 1; i++) {
 //		  for (int j = i + 1; j < numbers.length; j++) {
