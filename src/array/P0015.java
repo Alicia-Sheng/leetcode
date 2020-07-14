@@ -1,10 +1,6 @@
-// 15. 3Sum
+//15. 3Sum
 
 package array;
-
-import java.util.Arrays;
-import java.util.List;
-import java.util.ArrayList;
 
 class P0015 {
     public List<List<Integer>> threeSum(int[] nums) {

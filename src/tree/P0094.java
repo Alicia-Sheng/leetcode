@@ -1,12 +1,6 @@
-// 94. Binary Tree Inorder Traversal
+//94. Binary Tree Inorder Traversal
 
 package tree;
-
-import java.util.List;
-
-import tree.P0094TreeNode.TreeNode;
-
-import java.util.ArrayList;
 
 /**
  * Definition for a binary tree node.
@@ -23,13 +17,13 @@ import java.util.ArrayList;
  *     }
  * }
  */
-class P0094 {
+class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();
         recursion(root, result);
         return result;
     }
-    
+
     public void recursion(TreeNode root, List<Integer> result) {
         if (root != null) {
             if (root.left != null) {

@@ -2,9 +2,6 @@
 
 package array;
 
-import java.util.Map;
-import java.util.HashMap;
-
 class P0001 {
 	public int[] twoSum(int[] numbers, int target) {
 //		int[] result = new int[2];
