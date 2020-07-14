@@ -1,4 +1,4 @@
-//TreeNode.java for P0094
+// TreeNode.java for P0094
 
 package tree.P0094TreeNode;
 
