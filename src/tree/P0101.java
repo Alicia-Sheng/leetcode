@@ -1,4 +1,4 @@
-//100. Same Tree
+//101. Symmetric Tree
 
 package tree;
 
@@ -17,17 +17,18 @@ package tree;
  *     }
  * }
  */
-class P0100 {
-    public boolean isSameTree(TreeNode p, TreeNode q) {
+class P0101 {
+    public boolean isSymmetric(TreeNode root) {
+        return helper(root, root);
+    }
+
+    public boolean helper(TreeNode p, TreeNode q) {
         if (p == null && q == null) {
             return true;
         }
         if (p == null || q == null) {
             return false;
         }
-        if (p.val != q.val) {
-            return false;
-        }
-        return (isSameTree(p.left, q.left) && isSameTree(p.right, q.right));
+        return ((p.val == q. val) && helper(p.left, q.right) && helper(p.right, q.left));
     }
 }
