@@ -1,6 +1,6 @@
 //94. Binary Tree Inorder Traversal
 
-package tree;
+package java;
 
 /**
  * Definition for a binary tree node.

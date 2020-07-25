@@ -1,6 +1,6 @@
 //96. Unique Binary Search Trees
 
-package tree;
+package java;
 
 class P0096 {
     public int numTrees(int n) {

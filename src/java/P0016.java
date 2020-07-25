@@ -1,6 +1,6 @@
 //16. 3Sum Closest
 
-package array;
+package java;
 
 class Solution {
     public int threeSumClosest(int[] nums, int target) {

@@ -1,6 +1,6 @@
 //102. Binary Tree Level Order Traversal
 
-package tree;
+package java;
 
 /**
  * Definition for a binary tree node.

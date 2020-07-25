@@ -1,6 +1,6 @@
 //101. Symmetric Tree
 
-package tree;
+package java;
 
 /**
  * Definition for a binary tree node.

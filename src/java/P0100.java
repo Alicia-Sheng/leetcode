@@ -1,6 +1,6 @@
 //100. Same Tree
 
-package tree;
+package java;
 
 /**
  * Definition for a binary tree node.

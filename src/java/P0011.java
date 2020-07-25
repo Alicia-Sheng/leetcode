@@ -1,6 +1,6 @@
 //11. Container With Most Water
 
-package array;
+package java;
 
 class P0011 {
     public int maxArea(int[] height) {

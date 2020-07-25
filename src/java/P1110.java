@@ -17,7 +17,7 @@ package java;
  *     }
  * }
  */
-class Solution {
+class P1110 {
     Set<Integer> to_delete_set;
     List<TreeNode> res;
     public List<TreeNode> delNodes(TreeNode root, int[] to_delete) {

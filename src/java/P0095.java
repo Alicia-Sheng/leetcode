@@ -1,6 +1,6 @@
 //95. Unique Binary Search Trees II
 
-package tree;
+package java;
 
 /**
  * Definition for a binary tree node.

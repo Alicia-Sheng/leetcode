@@ -1,6 +1,6 @@
 //98. Validate Binary Search Tree
 
-package tree;
+package java;
 
 /**
  * Definition for a binary tree node.

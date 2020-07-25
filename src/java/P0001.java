@@ -1,6 +1,6 @@
 // 1. Two Sum
 
-package array;
+package java;
 
 class P0001 {
 	public int[] twoSum(int[] numbers, int target) {

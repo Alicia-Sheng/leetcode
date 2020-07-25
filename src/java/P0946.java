@@ -2,7 +2,7 @@
 
 package java;
 
-class Solution {
+class P0946 {
     public boolean validateStackSequences(int[] pushed, int[] popped) {
         int N = pushed.length;
         Stack<Integer> stack = new Stack();

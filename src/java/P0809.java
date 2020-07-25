@@ -2,7 +2,7 @@
 
 package java;
 
-class Solution {
+class P0809 {
     public int expressiveWords(String S, String[] words) {
         if (S == null || words == null) {
             return 0;
