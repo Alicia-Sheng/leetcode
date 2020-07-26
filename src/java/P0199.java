@@ -17,6 +17,8 @@ package java;
  *     }
  * }
  */
+
+//BFS breadth first search
 class P0199 {
     public List<Integer> rightSideView(TreeNode root) {
         if (root == null) {
@@ -42,5 +44,25 @@ class P0199 {
             result.add(node.val);
         }
         return result;
+    }
+}
+
+//DFS depth first search
+class Solution {
+    public List<Integer> rightSideView(TreeNode root) {
+        List<Integer> result = new ArrayList<Integer>();
+        helper(root, result, 0);
+        return result;
+    }
+
+    public void helper(TreeNode root, List<Integer> result, int level) {
+        if (root == null) {
+            return;
+        }
+        if (level == result.size()) {
+            result.add(root.val);
+        }
+        helper(root.right, result, level + 1);
+        helper(root.left, result, level + 1);
     }
 }
