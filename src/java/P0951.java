@@ -23,7 +23,7 @@ class P0951 {
     }
 
     public boolean helper(TreeNode root1, TreeNode root2) {
-        if (root1 == root2) {
+        if (root1 == null && root2 == null) {
             return true;
         }
         if (root1 == null || root2 == null || root1.val != root2.val) {
