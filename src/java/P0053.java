@@ -11,7 +11,7 @@ class P0053 {
         max[0] = nums[0];
         for (int i = 1; i < nums.length; i++) {
             max[i] = Math.max(nums[i], (nums[i] + max[i - 1]));
-            res = max[i] > res ? max[i] : res;
+            res = Math.max(max[i], res);
         }
         return res;
         // if (nums == null || nums.length == 0) {
