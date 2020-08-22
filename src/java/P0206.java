@@ -23,5 +23,12 @@ class P0206 {
             curr = next;
         }
         return prev;
+        // if (head == null || head.next == null) {
+        //     return head;
+        // }
+        // ListNode node = reverseList(head.next);
+        // head.next.next = head;
+        // head.next = null;
+        // return node;
     }
 }
